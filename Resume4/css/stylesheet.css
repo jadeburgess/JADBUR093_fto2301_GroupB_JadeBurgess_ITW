@@ -1,32 +1,65 @@
 
 h2 {
-    color: whitesmoke;
-    background-color: black;
+    color: black;
+    background-color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: black; 
+
 }
 p {
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+#intro {
+    color: black;
+    background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
 }
 #menu {color: black;
        background-color: lightgray;
        font-family: Arial, Helvetica, sans-serif; 
+       text-align: center;
+       margin-left: 50px;
+       margin-right: 50px
+       border-width: 1px;
+       border-right-width: 5px;
+       border-left-width: 5px;
 }
-ul {
-    color: black ;
-    font-family: Arial, Helvetica, sans-serif;
+
+#education {
+    margin-left: 100px;
+
+}
+#experience {
+    margin-left: 100px;
+           
+}
+#skills {
+    margin-left: 100px;
+}
+#interests {
+    margin-left: 100px
+
 }
 h3 {
     color: black;
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
 }
-#intro {
-       color: black;
-       background-color: lightgrey;
-       font-family: Arial, Helvetica, sans-serif;
-}
+
 
 footer {color: black;
         background-color: beige;
+        border-style:solid;
+        border-color: black;
+        
 }
