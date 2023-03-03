@@ -19,6 +19,10 @@ p {
    
 
 }
+img {
+    border-radius: 50%;
+    margin-left: 660px;
+}
 #intro {
     color: black;
     background-color: lightgrey;
