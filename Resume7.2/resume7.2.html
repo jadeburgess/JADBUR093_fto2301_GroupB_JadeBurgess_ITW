@@ -3,16 +3,18 @@
   <head>
     <link rel="stylesheet" href="css/stylesheet.css"/>
     <title>My Digital Resume</title>
-  </head>
 
   <body>
     <body background="resumebg.jpg"></body>
-    <div id="intro">
-   <h3>I'm Jade Burgess. Welcome to my Digital Resume!</h3>
+  <div id="intro">
+          <h3>I'm Jade Burgess. Welcome to my Digital Resume!</h3>
   </div>
-  <img src="cvpic.jpg" width="300" height="300">
+<picture>
+  <img src="cvpic.jpg" alt="Jade Burgess" width="300" height="300">
+</picture> 
   <div id="menu">
-  <aside>  
+  </head>  
+    <aside>  
   <p>
       <p><a href="#education">Education</a></p>
       <p><a href="#experience">Experience</a></p>
@@ -70,11 +72,41 @@
   </div>
 <div id="footer">
 <footer>
-  
-  <h4>Contact Details:</h4> 
-  <h4>Email: jadeburgess1998@gmail.com</h4>
-  <h4>Cell: 0733961852</h4>
+  <div>
+    <h4>Contact Details:</h4> 
+  </div>
+  <div>
+    <h4>Email: jadeburgess1998@gmail.com</h4>
+  </div>
+  <div>
+    <h4>Cell: 0733961852</h4>
+  </div>
+  <br>
+  <div id="contactme">
+  <h4>Contact Me:</h4>
+      <form action="https://formsubmit.co/jadeburgess1998@gmail.com" method="POST">
+        <label for="subject">Subject:</label>
+        <select name="subject" id="subject" required>
+          <option value="Interview Opportunity">Interview Opportunity</option>
+          <option value="Recruiter">Recruiter</option>
+          <option value="Website Feedback">Website Feedback</option>
+          <option value="Other">Other</option>
+    </select>
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea> 
+  </div>
+
+
+
+
+      </form>
 </footer>
 </div>
+  
+
+
+   </head>
   </body>
 </html>
