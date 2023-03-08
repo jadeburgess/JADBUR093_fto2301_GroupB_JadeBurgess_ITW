@@ -3,17 +3,20 @@
   <head>
     <link rel="stylesheet" href="css/stylesheet.css"/>
     <title>My Digital Resume</title>
-
-  <body>
+  
     <body background="resumebg.jpg"></body>
-  <div id="intro">
-          <h3>Self-taught junior software deveoper with an interest in front-end development.</h3>
-  </div>
+  
+    <div id="intro">
+          <h3>Self-taught junior software developer with a keen interest in front-end development.</h3>
+    </div>
+
 <picture>
-  <img src="cvpic.jpg" alt="Jade Burgess" width="300" height="300">
+    <source src="cvpicbig.jpg" media="">
+    <img src="cvpic.jpg" alt="Jade Burgess" width="300" height="300">
 </picture> 
-  <div id="menu">
-  </head>  
+</head>
+<div id="menu">
+ 
     <aside>  
   <p>
       <p><a href="#education">Education</a></p>
@@ -21,9 +24,10 @@
       <p><a href="#skills">Skills</a></p>
       <p><a href="#interests">Interests</a></p>
     </p>
-  </aside>
+    </aside>
   </div>
   <article>
+      <body>
   <section>
   <div id="education">
     <h2 id="education">Education</h2>
@@ -81,6 +85,9 @@
   <div>
     <h4>Cell: 0733961852</h4>
   </div>
+  <div>
+    <h4><a href="https://github.com/jadeburgess">Github</a></h4>
+  </div>
   <br>
   <div id="contactme">
   <h4>Contact Me:</h4>
@@ -92,10 +99,12 @@
           <option value="Website Feedback">Website Feedback</option>
           <option value="Other">Other</option>
     </select>
-    <label for="email">Email:</label>
-    <input type="email" name="email" required>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" cols="30"></textarea> 
+      <label for="email">Email:</label>
+      <input type="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" cols="30"></textarea> 
+      <input type="submit" id="send" value="send">
+  
   </div>
 
 
@@ -105,8 +114,5 @@
 </footer>
 </div>
   
-
-
-   </head>
   </body>
 </html>
