@@ -4,7 +4,7 @@ h2 {
     background-color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 50px;
+    margin-left: 600px;
     padding: 40px;
     border-style: solid;
     border-width: 2px;
@@ -13,6 +13,8 @@ h2 {
     border-top-width: 2px;
     border-bottom-width: 2px;
     border-color: black; 
+    width: 500px;
+    height: 30px;
 }
 
 h3 {
@@ -22,18 +24,24 @@ h3 {
 p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
     text-align: center;
+    margin-right: 15%;
 }
 img {
     border-radius: 50%;
-    margin-left: 660px;
-    margin-right: 600px;
+    margin-left: auto;
+    margin-right: auto;
     border-style: solid;
     border-width: 2px;
     border-color: gray;
-    position: relative;
+    position: relative;   
 }
+#picture {
+    display: flex;
+    justify-content: center;
+}
+
+
 #intro {
     color: black;
     background-color: lightgrey;
@@ -54,18 +62,18 @@ img {
 }
 
 #education {
-    margin-left: 100px;
+    margin-left: 250px ;
 
 }
 #experience {
-    margin-left: 100px;
+    margin-left: 250px;
            
 }
 #skills {
-    margin-left: 100px;
+    margin-left: 250px;
 }
 #interests {
-    margin-left: 100px
+    margin-left: 250px
 
 }
 h3 {
