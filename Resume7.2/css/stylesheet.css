@@ -8,8 +8,10 @@ h2 {
     padding: 40px;
     border-style: solid;
     border-width: 2px;
-    border-left-width: 10px;
-    border-right-width: 10px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
     border-color: black; 
 }
 
@@ -21,6 +23,7 @@ p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    text-align: center;
 }
 img {
     border-radius: 50%;
@@ -44,10 +47,10 @@ img {
        padding: 3px;
        margin-left: 50px;
        margin-right: 50px
-       border-width: 1px;
-       border-right-width: 5px;
-       border-left-width: 5px;
+       border-right-width: 2px;
+       border-left-width: 2px;
        position: absolute;
+
 }
 
 #education {
@@ -69,6 +72,7 @@ h3 {
     color: black;
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h4 {
