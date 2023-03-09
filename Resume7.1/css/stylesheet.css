@@ -31,7 +31,31 @@ img {
     border-color: gray;
     position: relative;
 }
-.cvPicture {}
+
+@media only screen and (max-width: 400px){
+    #responsiveImg{
+        width: 600px;
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 800px){
+    #responsiveImg{
+        width: 500px;
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #responsiveImg{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #responsiveImg{
+        width: 300px;
+        height: 300px;
+    }
+}
 
 #intro {
     color: black;
