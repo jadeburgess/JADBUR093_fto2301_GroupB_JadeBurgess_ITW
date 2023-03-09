@@ -9,6 +9,7 @@ h2 {
     background-color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-right: 5000px;
     padding: 20px;
     border-style: solid;
     border-width: 2px;
@@ -95,41 +96,43 @@ h3 {
 h4 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    background-color: whitesmoke;
     text-align: left;
 }
 
 footer {
         color: black;
-        background-color: lightgray; 
+        background-color: whitesmoke; 
         border-style:solid;
         border-color: black;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
 }
 
 
 
 #contactme {
         font-family: Arial, Helvetica, sans-serif;
-        margin-left: 50%;
 }
 #contactMe {
         font-family: Arial, Helvetica, sans-serif;
-        text-align: right;
+        text-align: left;
+    
 }
 
 form {
         display: flex;
         flex-direction: column;
-        margin-right: 5px;
+        margin-right: 75%;
         margin-bottom: 5px;
+        margin-left: 25px;
 }
 
- {
-
+div {margin-left: 10px;
 }
 
 
