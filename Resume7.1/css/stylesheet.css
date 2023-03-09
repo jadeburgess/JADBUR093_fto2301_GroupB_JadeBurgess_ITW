@@ -31,6 +31,8 @@ img {
     border-color: gray;
     position: relative;
 }
+.cvPicture {}
+
 #intro {
     color: black;
     background-color: lightgrey;

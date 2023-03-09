@@ -49,6 +49,14 @@ img {
     justify-content: center;
 }
 
+@media screen and (max-width: 300px) {
+    div img {
+        display: none;
+    }
+}
+div::before {
+    content: url(cvPicBig.jpg);
+}
 
 #intro {
     color: black;
