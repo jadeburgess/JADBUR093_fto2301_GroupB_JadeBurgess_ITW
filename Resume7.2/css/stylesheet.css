@@ -56,11 +56,11 @@ p {
        font-family: Arial, Helvetica, sans-serif; 
        text-align: left;
        padding: 10px;
-       margin-left: 50px;
-       margin-right: 50px;
+       margin-top: 5px;
+       margin-left: 10%;
        border-right-width: 2px;
        border-left-width: 2px;
-       position: absolute;
+       position: fixed;
 }
 
 
@@ -127,6 +127,8 @@ footer {
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 0px;
         margin-bottom: 0px;
+        margin-left: 25%;
+        width: 50%;
 }
 
 
