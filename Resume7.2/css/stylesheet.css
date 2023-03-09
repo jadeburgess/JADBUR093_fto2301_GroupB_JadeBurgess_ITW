@@ -9,7 +9,6 @@ h2 {
     background-color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-right: 5000px;
     padding: 20px;
     border-style: solid;
     border-width: 2px;
@@ -21,6 +20,7 @@ h2 {
     width: 500px;
     height: 30px;
     border-radius: 25px;
+    margin-top: 10px;
 }
 
 h5 {
@@ -65,6 +65,26 @@ p {
     margin-left: 230px ;
 
 }
+
+a:link {
+    color: lightgray;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+    text-decoration: underline;
+
+}
+
 #experience {
     margin-left: 230px;
            
