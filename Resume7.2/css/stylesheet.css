@@ -28,7 +28,8 @@ h5 {
     background-color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 p {
@@ -55,25 +56,26 @@ p {
        background-color: grey;
        font-family: Arial, Helvetica, sans-serif; 
        text-align: left;
-       padding: 10px;
+       padding: 30px;
        margin-top: 5px;
        margin-left: 10%;
        border-right-width: 2px;
        border-left-width: 2px;
        position: fixed;
+       border-radius: 10px;
 }
 
 
 a:link {
-    color: lightgray;
+    color: black;
 }
 
 a:visited {
-    color: darkgrey;
+    color: black;
 }
 
 a:hover {
-    color: purple;
+    color: white;
     text-decoration: underline;
 }
 
