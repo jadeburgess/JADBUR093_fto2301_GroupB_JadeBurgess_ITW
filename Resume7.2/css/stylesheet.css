@@ -1,11 +1,15 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    margin-bottom: 0px;
+}
 
 h2 {
     color: black;
     background-color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-left: 600px;
-    padding: 40px;
+    padding: 20px;
     border-style: solid;
     border-width: 2px;
     border-left-width: 2px;
@@ -15,12 +19,15 @@ h2 {
     border-color: black; 
     width: 500px;
     height: 30px;
+    border-radius: 25px;
 }
 
-h3 {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif
+h5 {
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
 }
+
 p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -58,30 +65,32 @@ img {
        border-right-width: 2px;
        border-left-width: 2px;
        position: absolute;
-
 }
 
 #education {
-    margin-left: 250px ;
+    margin-left: 230px ;
 
 }
 #experience {
-    margin-left: 250px;
+    margin-left: 230px;
            
 }
 #skills {
-    margin-left: 250px;
+    margin-left: 230px;
 }
 #interests {
-    margin-left: 250px
+    margin-left: 230px
 
 }
 h3 {
     color: black;
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
     text-align: center;
-}
+    margin-left: 10%;
+    }
+
 
 h4 {
     color: black;
@@ -90,23 +99,33 @@ h4 {
     text-align: left;
 }
 
-footer {color: black;
+footer {
+        color: black;
         background-color: lightgray; 
         border-style:solid;
         border-color: black;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 #contactme {
-    font-family: Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50%;
+}
+#contactMe {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right;
 }
 
-form {display: flex;
-    flex-direction: column;
-    margin-right: 5px;
-    margin-bottom: 5px;
+form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+        margin-bottom: 5px;
 }
 
  {
