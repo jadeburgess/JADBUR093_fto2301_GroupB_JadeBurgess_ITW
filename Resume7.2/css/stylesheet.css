@@ -21,19 +21,21 @@ h2 {
     height: 30px;
     border-radius: 25px;
     margin-top: 10px;
+    margin-right: 50%;
 }
 
 h5 {
     background-color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-right: 15%;
+    margin-right: 25%;
 }
 
 #picture {
@@ -52,8 +54,8 @@ p {
 #menu {color: black;
        background-color: grey;
        font-family: Arial, Helvetica, sans-serif; 
-       text-align: center;
-       padding: 3px;
+       text-align: left;
+       padding: 10px;
        margin-left: 50px;
        margin-right: 50px;
        border-right-width: 2px;
@@ -61,10 +63,6 @@ p {
        position: absolute;
 }
 
-#education {
-    margin-left: 230px ;
-
-}
 
 a:link {
     color: lightgray;
@@ -85,15 +83,20 @@ a:active {
 
 }
 
+#education {
+    margin-left: 20%;
+
+}
+
 #experience {
-    margin-left: 230px;
+    margin-left: 20%;
            
 }
 #skills {
-    margin-left: 230px;
+    margin-left: 20%;
 }
 #interests {
-    margin-left: 230px
+    margin-left: 20%;
 
 }
 h3 {
