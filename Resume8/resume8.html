@@ -3,26 +3,33 @@
   <head>
     <link rel="stylesheet" href="css/stylesheet.css"/>
     <title>My Digital Resume</title>
- 
-
-  <body>
+  
     <body background="resumebg.jpg"></body>
+  
     <div id="intro">
-   <h3>I'm Jade Burgess. Welcome to my Digital Resume!</h3>
-  </div>
-  <img src="cvpic.jpg" width="300" height="300" id="cvPicture">
-  <div id="menu">
-  </head>
-  <aside>  
+      <h1>Jade Burgess</h1>
+      <h5>Self-taught junior software developer with a keen interest in front-end development.</h5>
+    </div>
+<div id="picture">
+<picture>
+    <source src="cvpicbig.jpg" media="">
+    <img id="responsiveImg" src="cvpic.jpg" alt="Jade Burgess">
+</picture> 
+</div>
+</head>
+<div id="menu">
+ 
+    <aside>  
   <p>
       <p><a href="#education">Education</a></p>
       <p><a href="#experience">Experience</a></p>
       <p><a href="#skills">Skills</a></p>
       <p><a href="#interests">Interests</a></p>
     </p>
-  </aside>
+    </aside>
   </div>
   <article>
+      <body>
   <section>
   <div id="education">
     <h2 id="education">Education</h2>
@@ -54,7 +61,7 @@
 </div>
 <div id="skills">
   <aside>
-    <h2 id="skills">Skills</h2>
+    <h2 id="skills"> Skills</h2>
     <p>
         <p>Figma</p>
         <p>Scratch</p>
@@ -66,23 +73,17 @@
   </aside>
   </article>
   <div id="interests">
-  <h2 id="interests">Interests</h2>
+  <h2 id="interests"> Interests</h2>
   <p>History, Art, Science, gaming, programming, traveling, computers</p>
   </div>
 <div id="footer">
 <footer>
-  <div>
-    <h4>Contact Details:</h4> 
-  </div>
-  <div>
-    <h4>Email: jadeburgess1998@gmail.com</h4>
-  </div>
-  <div>
-    <h4>Cell: 0733961852</h4>
-  </div>
-  <br>
+    <div><h4>Contact Details:</h4></div>
+    <div><h4>Email: jadeburgess1998@gmail.com</h4></div>
+    <div><h4>Cell: 0733961852</h4></div>
+    <div><h4><a href="https://github.com/jadeburgess">Github</a></h4></div>
   <div id="contactme">
-  <h4>Contact Me:</h4>
+    <h4 id="contactMe">Contact Me:</h4>
       <form action="https://formsubmit.co/jadeburgess1998@gmail.com" method="POST">
         <label for="subject">Subject:</label>
         <select name="subject" id="subject" required>
@@ -91,10 +92,12 @@
           <option value="Website Feedback">Website Feedback</option>
           <option value="Other">Other</option>
     </select>
-    <label for="email">Email:</label>
-    <input type="email" name="email" required>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" cols="30"></textarea> 
+      <label for="email">Email:</label>
+      <input type="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" cols="30"></textarea> 
+      <input type="submit" id="send" value="send" style="height:30px; width:50px">
+  
   </div>
 
 
@@ -104,7 +107,5 @@
 </footer>
 </div>
   
-
-
   </body>
 </html>

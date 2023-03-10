@@ -159,59 +159,63 @@ div {margin-left: 10px;
     #responsiveImg{
         width: 300px;
         height: 300px;
+
         border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: solid;
-        border-width: 2px;
-        border-color: gray;
-        position: relative;  
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    position: relative;  
     
     }
 }
 
 @media only screen and (max-width: 1200px){
     #responsiveImg{
-        width: 200px;
-        height: 200px;
+        width: 400px;
+        height: 400px;
+
         border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: solid;
-        border-width: 2px;
-        border-color: gray;
-        position: relative;  
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    position: relative;  
     
     }
 }
 
 @media only screen and (max-width: 800px){
     #responsiveImg{
-        width: 100px;
-        height: 100px;
+        width: 500px;
+        height: 500px;
+
         border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: solid;
-        border-width: 2px;
-        border-color: gray;
-        position: relative;  
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    position: relative;  
     
     }
 }
 
 @media only screen and (max-width: 400px){
     #responsiveImg{
-        width: 100px;
-        height: 100px;
+        width: 600px;
+        height: 600px;
+
         border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: solid;
-        border-width: 2px;
-        border-color: gray;
-        position: relative;  
-        
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    position: relative;  
+    
     }
 }
 
