@@ -1,4 +1,8 @@
-
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    margin-bottom: 0px;
+}
 
 h5 {
     background-color: darkgray;
@@ -8,24 +12,12 @@ h5 {
     padding-bottom: 10px;
 }
 
-p {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-right: 25%;
-}
 
 #picture {
     display: flex;
     justify-content: center;
 }
 
-body {
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-
-}
 
 
 #intro {
@@ -49,11 +41,11 @@ body {
 
 
 a:link {
-    color: darkgray;
+    color: ghostwhite;
 }
 
 a:visited {
-    color: darkgrey;
+    color: grey;
 }
 
 a:hover {
@@ -66,24 +58,6 @@ a:active {
     text-decoration: underline;
 
 }
-
-#education {
-    margin-left: 20%;
-    text-align: center;
-    
-}
-#experience {
-    margin-left: 20%;
-           
-}
-#skills {
-    margin-left: 20%;
-}
-#interests {
-    margin-left: 20%;
-
-}
-
 
 h4 {
     color: black;
@@ -121,14 +95,13 @@ footer {
 form {
         display: flex;
         flex-direction: column;
-        margin-right: 65%;
+        margin-right: 75%;
         margin-bottom: 5px;
         margin-left: 25px;
 }
 
-div {margin-left: 10px;
-}
-/*---desktop---*/
+
+/*desktop*/
 @media only screen and (max-width: 3000px){
     #responsiveImg{
         width: 300px;
@@ -140,130 +113,75 @@ div {margin-left: 10px;
         border-width: 2px;
         border-color: gray;
         position: relative;  
+        text-align: center;
+        display: block;
+    }
+    h2 {
+        color: black;
+        background-color: darkgray;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        border-style: solid;
+        border-width: 2px;
+        border-left-width: 2px;
+        border-right-width: 2px;
+        border-top-width: 2px;
+        border-bottom-width: 2px;
+        border-color: black; 
+        width: 600px;
+        height: 30px;
+        border-radius: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    }
+    .heading {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            
+       
+    }
+    .paragraph1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            
+    
+    }
+    .subheading {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            width: 800px;
+            text-align: center;
+            display: inline;
+           
 
     }
-    h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: darkgrey;
-        margin-bottom: 0px;
-        font-size: 2em;
-    }
-    #education {
-        color: black;
-        background-color: darkgray;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        padding: 20px;
-        border-style: solid;
-        border-width: 3px;
-        border-left-width: 2px;
-        border-right-width: 2px;
-        border-top-width: 2px;
-        border-bottom-width: 2px;
-        border-color: black; 
-        width: 500px;
-        height: 30px;
-        border-radius: 25px;
-        margin-top: 10px;
-        margin-right: 70%;
-        margin-left: 50%;
-    }
-    #heading {
+    .paragraph2 {
             color: white;
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
-            margin-right: 25%;
+            
     }
-    #paragraph {
+    .paragraph3 {
             color: white;
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
-            margin-right: 25%;
-        }
-    
-    #experience {
-        color: black;
-        background-color: darkgray;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        padding: 20px;
-        border-style: solid;
-        border-width: 3px;
-        border-left-width: 2px;
-        border-right-width: 2px;
-        border-top-width: 2px;
-        border-bottom-width: 2px;
-        border-color: black; 
-        width: 500px;
-        height: 30px;
-        border-radius: 25px;
-        margin-top: 10px;
-        margin-right: 70%;
-        margin-left: 50%
+           
     }
-    #subheading {
+    .paragraph4 {
             color: white;
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
-            margin-right: 25%;
     }
-    #paragraph2 {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        margin-right: 25%;
-    }
-    #skills {
-        color: black;
-        background-color: darkgray;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        padding: 20px;
-        border-style: solid;
-        border-width: 3px;
-        border-left-width: 2px;
-        border-right-width: 2px;
-        border-top-width: 2px;
-        border-bottom-width: 2px;
-        border-color: black; 
-        width: 500px;
-        height: 30px;
-        border-radius: 25px;
-        margin-top: 10px;
-        margin-right: 70%;
-        margin-left: 50%
-    }
-    #interests {
-        color: black;
-        background-color: darkgray;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        padding: 20px;
-        border-style: solid;
-        border-width: 3px;
-        border-left-width: 2px;
-        border-right-width: 2px;
-        border-top-width: 2px;
-        border-bottom-width: 2px;
-        border-color: black; 
-        width: 500px;
-        height: 30px;
-        border-radius: 25px;
-        margin-top: 10px;
-        margin-right: 70%;
-        margin-left: 50%
-    }
-    h3 {
-        color: black;
-        background-color: gray;
-        font-family: Arial, Helvetica, sans-serif;
-        width: 800px;
-        text-align: center;
-        margin-left: 10%;
-        }
-    
-}
-/*---laptop---*/
+
+/*laptop*/
 @media only screen and (max-width: 1200px){
     #responsiveImg{
         width: 200px;
@@ -276,18 +194,11 @@ div {margin-left: 10px;
         border-color: gray;
         position: relative;  
     }
-    h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: darkgrey;
-        margin-bottom: 0px;
-        font-size: 2em;
-    }
     h2 {
         color: black;
         background-color: darkgray;
         font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        padding: 15px;
+        padding: 20px;
         border-style: solid;
         border-width: 2px;
         border-left-width: 2px;
@@ -296,24 +207,54 @@ div {margin-left: 10px;
         border-bottom-width: 2px;
         border-color: black; 
         width: 300px;
-        height: 20px;
+        height: 30px;
         border-radius: 25px;
         margin-top: 10px;
-        margin-right: 60%;
+        margin-bottom: 10px;
+        text-align: center;
     }
-
-    h3 {
-        color: black;
-        background-color: gray;
+    .heading {
+        color: white;
         font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+     
+    .paragraph1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+     
+}
+    .subheading {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-right: 25%;
+        background-color: gray;
         width: 800px;
         text-align: center;
-        margin-left: 10%;
-        }
-    
-    
+        
+    }
 }
-/*---tablet---*/
+    .paragraph2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      
+    .paragraph3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+     
+}
+    .paragraph4 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        
+}
+
+
+/*tablet*/
 @media only screen and (max-width: 800px){
     #responsiveImg{
         width: 100px;
@@ -325,18 +266,12 @@ div {margin-left: 10px;
         border-width: 2px;
         border-color: gray;
         position: relative;  
-    }
-    h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: darkgrey;
-        margin-bottom: 0px;
-        font-size: 1em;
+    
     }
     h2 {
         color: black;
         background-color: darkgray;
         font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
         padding: 20px;
         border-style: solid;
         border-width: 2px;
@@ -345,30 +280,56 @@ div {margin-left: 10px;
         border-top-width: 2px;
         border-bottom-width: 2px;
         border-color: black; 
-        width: 500px;
+        width: 200px;
         height: 30px;
         border-radius: 25px;
-        margin-top: 10px;
-        margin-right: 50%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-align: center;
     }
-
-    h3 {
-        color: black;
-        background-color: gray;
+    .heading {
+        color: white;
         font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+       
+}
+    .paragraph1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    
+}
+    .subheading {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+  
+        background-color: gray;
         width: 800px;
         text-align: center;
-        margin-left: 10%;
-        }
-    
-    #paragraph1 {
-        margin-left: 25%;
-
+       
     }
- 
-        
 }
-/*---mobile---*/
+    .paragraph2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      
+}
+    .paragraph3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+       
+}
+    .paragraph4 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      
+}
+}
+/*mobile*/
 @media only screen and (max-width: 400px){
     #responsiveImg{
         width: 100px;
@@ -379,19 +340,12 @@ div {margin-left: 10px;
         border-style: solid;
         border-width: 2px;
         border-color: gray;
-        position: relative;   
-    }
-    h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: darkgrey;
-        margin-bottom: 0px;
-        font-size: 0.80em;
+        position: relative;  
     }
     h2 {
         color: black;
         background-color: darkgray;
         font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
         padding: 20px;
         border-style: solid;
         border-width: 2px;
@@ -400,22 +354,52 @@ div {margin-left: 10px;
         border-top-width: 2px;
         border-bottom-width: 2px;
         border-color: black; 
-        width: 500px;
+        width: 100px;
         height: 30px;
         border-radius: 25px;
-        margin-top: 10px;
-        margin-right: 50%;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        text-align: center;
     }
-    h3 {
-        color: black;
-        background-color: gray;
+    .heading {
+        color: white;
         font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .paragraph1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+     
+            }
+    .subheading {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      
+        background-color: gray;
         width: 800px;
-        text-align: left;
-        margin-left: 0px;
-        font-size: small;
-        }
+        text-align: center;
+    }
+}
+    .paragraph2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
     
+}
+    .paragraph3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      
+}
+    .paragraph4 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+       
+}
 
 }
 

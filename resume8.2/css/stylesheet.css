@@ -1,0 +1,225 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: black;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-color: black; 
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 50%;
+}
+
+h5 {
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 25%;
+}
+
+#picture {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#intro {
+    color: black;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#menu {color: black;
+       background-color: grey;
+       font-family: Arial, Helvetica, sans-serif; 
+       text-align: left;
+       padding: 30px;
+       margin-top: 5px;
+       margin-left: 10%;
+       border-right-width: 2px;
+       border-left-width: 2px;
+       position: fixed;
+       border-radius: 10px;
+}
+
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+#education {
+    margin-left: 20%;
+
+}
+
+#experience {
+    margin-left: 20%;
+           
+}
+#skills {
+    margin-left: 20%;
+}
+#interests {
+    margin-left: 20%;
+
+}
+h3 {
+    color: black;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    text-align: center;
+    margin-left: 10%;
+    }
+
+
+h4 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+footer {
+        color: black;
+        background-color: whitesmoke; 
+        border-style:solid;
+        border-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 25%;
+        width: 50%;
+}
+
+
+
+#contactme {
+        font-family: Arial, Helvetica, sans-serif;
+}
+#contactMe {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+    
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 75%;
+        margin-bottom: 5px;
+        margin-left: 25px;
+}
+
+div {margin-left: 10px;
+}
+
+@media only screen and (max-width: 3000px){
+    #responsiveImg{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+        border-width: 2px;
+        border-color: gray;
+        position: relative;  
+    
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #responsiveImg{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+        border-width: 2px;
+        border-color: gray;
+        position: relative;  
+    
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #responsiveImg{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+        border-width: 2px;
+        border-color: gray;
+        position: relative;  
+    
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #responsiveImg{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+        border-width: 2px;
+        border-color: gray;
+        position: relative;  
+        
+    }
+}
+
+
+
+
+
+
+
+
+
